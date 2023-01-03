@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+a {
+    text-decoration:none;
+}
+
+.header {
+    position: absolute;
+    top: 205px;
+    left: 280px;
+}
+
+.header img {
+    width: 301px;
+    height: 106px;
+    margin: -28px;
+}
+
+.description {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    padding: 15px 0 0 0;
+}
+
+.main {
+    width: 385px;
+    height: 314px;
+    position: absolute;
+    right: 283px;
+    top: 130px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 7px 5px 28px;
+}
+
+#email {
+    width: 330px;
+    height: 22px;
+    border: 1px solid #dddfe2;
+    color: #9297a5;
+    border-radius: 6px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    padding: 14px 16px;
+    margin: 10px 10px 5px 10px;
+}
+
+#password {
+    width: 330px;
+    height: 22px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    padding: 14px 16px;
+    margin: 10px 10px 5px 10px;
+    color: #9297a5;
+}
+
+#btn {
+    width: 362px;
+    height: 48px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    padding: 14px 16px;
+    margin: 10px 10px 5px 10px;
+    font-weight: 700;
+    background-color: #1877f2;;
+    cursor: pointer;
+}
+
+#btn a {
+    color: #fff;
+}
+
+#btn:hover {
+    background-color:#166fe5;
+}
+
+.forgot-password {
+    width: 132px;
+    height: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 128px 25px 128px; 
+}
+
+.forgot-password a {
+    color: #1877f2;
+}
+
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 25px 16px;
+    text-align: center;
+}
+
+.btn2 {
+    width: 198px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 48px;
+    margin-left: 100px;
+    font-weight: bold;
+    background-color: #42b72a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.info {
+    position: absolute;
+    right: 328px;
+    top: 510px;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.info a{
+    color: #1c1e21;
+    font-weight: 600;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 1536px;
+    height: 136px;
+    position: absolute;
+    bottom: -168px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 302px;
+}
+
+.lang {
+    color: #737373;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.lang1 {
+    color: #737373;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 3.5px;
+}
+
+.line2 {
+    width: 977px;
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    margin-left: 280px;
+  }
+
+  .settings ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    margin-right: -10px;
+    gap: 10px;
+  }
+
+  .settings a {
+    color: #737373;
+    margin-right: 10px;
+  }
+
+  .extra-settings ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+    margin-right: 86px;
+    gap: 15px;
+  }
+
+  .extra-settings a {
+    color: #737373;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: 10px;
+  }
+
+  .extra-settings p {
+    margin-left: 280px;
+    margin-top: 3px;
+  }
+
+  .meta p {
+    color: #737373;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 280px;
+  }
